@@ -15,7 +15,13 @@ constructing intermediate R data frames or collecting the whole dataset.
 
 ## Installation
 
-Install the development version from GitHub:
+Install the released version from [CRAN](https://CRAN.R-project.org/package=anotherSAS7bdat):
+
+```r
+install.packages("anotherSAS7bdat")
+```
+
+Or install the development version from GitHub:
 
 ```r
 # install.packages("remotes")
@@ -25,7 +31,8 @@ remotes::install_github("Fred-Wu/anotherSAS7bdat")
 Source installation requires Rtools on Windows, or C++ build tools on macOS
 and Linux.
 
-For SAS-to-Parquet conversion, also install **arrow** (version 14.0.0 or later):
+For SAS-to-Parquet conversion, also install **arrow** (version 18.1.0 or later,
+with Parquet support enabled):
 
 ```r
 install.packages("arrow")
